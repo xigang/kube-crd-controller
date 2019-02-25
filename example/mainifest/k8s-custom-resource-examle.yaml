@@ -1,0 +1,7 @@
+apiVersion: example.com/v1
+kind: MyCustomResource
+metadata:
+  name: example-myresource
+spec:
+  message: hello world
+  someValue: 13
