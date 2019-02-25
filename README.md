@@ -4,7 +4,7 @@ An example of a custom Kubernetes controller that's only purpose is to watch for
 
 ```
 # go get github.com/xigang/kube-crd-controller
-# go build -o kube-crd-controller
+# go build -o bin/kube-crd-controller
 ```
 
 ## Getting Started
@@ -24,5 +24,5 @@ An example of a custom Kubernetes controller that's only purpose is to watch for
 #### build and run example
 
 ```
-# ./kube-crd-controller -kubeconfig=/etc/kubernetes/kubeconfig -master=https://kubernetes-master:6443
+# ./bin/kube-crd-controller -kubeconfig=/etc/kubernetes/kubeconfig -master=https://kubernetes-master:6443
 ```
